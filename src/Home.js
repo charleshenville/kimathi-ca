@@ -1,5 +1,6 @@
 import './App.css';
 import items from './mediaconfig.json';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
         <div className="content-grid">
 
           {items.map(item =>
-            <a style={{ width: '100%', borderRadius: '10px' }} href={item.url}>
+            <Link style={{ width: '100%', borderRadius: '10px' }} to={item.url}>
 
               <div className='card-master'>
 
@@ -17,7 +18,7 @@ function Home() {
                   <p style={{ position: 'absolute', top: '45%', zIndex: '1', pointerEvents: 'none' }}>{item.year}</p>
 
               </div>
-            </a>
+            </Link>
           )}
 
         </div>

@@ -12,12 +12,12 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/work' element={<Work />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/work' element={<Work />} />
+        <Route exact path='/contact' element={<Contact />} />
 
         {items.map(item =>
-          <Route path={item.url} element={<SubDisplay info={item}/>}/>
+          <Route exact path={item.url} element={<SubDisplay info={item}/>}/>
         )}
 
         <Route path='*' element={<Home />} />

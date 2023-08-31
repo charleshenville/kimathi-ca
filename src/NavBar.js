@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './nav.module.css';
 
 function NavBar() {
@@ -70,7 +71,7 @@ function NavBar() {
 
                 <div style={{ margin: '10px', display: 'flex', width: '100%', hieght: isExpanded ? '33.333%' : '100%' }}>
                     <div style={{ width: '50%', height: '100%' }}>
-                        <a href='/' id="eyes" className={styles.eyeFrame}>
+                        <Link to='/' id="eyes" className={styles.eyeFrame}>
 
                             <svg id='leye' width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -87,7 +88,7 @@ function NavBar() {
                                     } fill="black" />
 
                             </svg>
-                        </a>
+                        </Link>
                     </div>
 
                     <div id="burger" className={styles.burger}>
@@ -110,9 +111,9 @@ function NavBar() {
                             )
                         } */}
 
-                        <a href="/contact" style={{ textDecoration: 'none', color: 'white' }} className={styles.contactBox}>
-                            <a href="/contact" style={{ textDecoration: 'none', color: 'white', width: 'fit-content', margin: '15px' }}>CONTACT</a>
-                        </a>
+                        <Link to="/contact" style={{ textDecoration: 'none', color: 'white' }} className={styles.contactBox}>
+                            <Link to="/contact" style={{ textDecoration: 'none', color: 'white', width: 'fit-content', margin: '15px' }}>CONTACT</Link>
+                        </Link>
                     </div>
                 </div>
 
