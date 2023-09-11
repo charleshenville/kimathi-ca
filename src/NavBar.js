@@ -7,14 +7,21 @@ function NavBar() {
     const [isExpanded, setExpanded] = useState(false);
     const [eyeState, setEyeState] = useState(2);
 
-    function handleClick(event) {
-        setEyeState(0);
-        setTimeout(function () {
-            setEyeState(2);
-        }, 400);
-    }
-
     useEffect(() => {
+
+        function handleClick(event) {
+            console.log("Blink")
+            if (eyeState === 0){
+                setEyeState(2);
+            }
+            else{
+                setEyeState(0);
+                setTimeout(function () {
+                    setEyeState(2);
+                }, 400);
+            }
+        }
+
         const handleBurgerClick = () => {
             setExpanded((prevExpanded) => !prevExpanded);
         };
@@ -36,22 +43,22 @@ function NavBar() {
         };
 
         document.addEventListener('mousemove', handleMouseMove);
+        document.addEventListener("click", handleClick);
+        if (window.innerWidth <= 768 ) { 
+        
+            setInterval(handleClick, 5000);
+    
+        } 
         // document.getElementById('burger').addEventListener('click', handleBurgerClick);
 
         return () => {
             document.removeEventListener('mousemove', handleMouseMove);
+            document.removeEventListener("click", handleClick);
             // document.getElementById('burger').removeEventListener('click', handleBurgerClick);
         };
     }, []);
-
-    document.addEventListener("click", handleClick);
-    window.onload = handleClick
-
-    if (window.innerWidth <= 768 ) { 
-        
-        const intervalID = setInterval(handleClick, 5000);
-
-    } 
+    
+    // window.onload = handleClick
 
     function getTheta(x1, y1, x2, y2) {
 
@@ -83,7 +90,6 @@ function NavBar() {
 
                                 <path style={{ transition: 'd 0.1s ease-in-out' }} fill-rule="evenodd" clip-rule="evenodd"
                                     d={eyeState == 2 ? "M17 34C26.3888 34 34 26.3888 34 17C34 7.61116 26.3888 0 17 0C7.61116 0 0 7.61116 0 17C0 26.3888 7.61116 34 17 34ZM30.9536 19.2211C31.6289 18.429 32.2997 17.6423 33 16.8969C31.9127 15.7397 30.9854 14.6805 30.1455 13.7212C26.2745 9.29967 24.2612 7 17 7C9.54399 7 5.77924 11.3852 2.67538 15.0005C2.10067 15.67 1.54863 16.313 1 16.8969C1.61932 17.556 2.23173 18.2771 2.8635 19.0209C6.0116 22.7275 9.64039 27 17 27C24.3216 27 27.6902 23.0489 30.9536 19.2211Z"
-                                        : eyeState == 1 ? "M17.5 34C26.8888 34 34.5 26.3888 34.5 17C34.5 7.61116 26.8888 0 17.5 0C8.11116 0 0.5 7.61116 0.5 17C0.5 26.3888 8.11116 34 17.5 34ZM31.4536 19.2211C32.1289 18.429 32.7997 17.6423 33.5 16.8969C32.3764 16.8969 32.5955 16.8969 31.4536 16.8969C27 16.8969 24.7612 17 17.5 17C10.044 17 6.5 17 3.5 16.8969C2.53903 16.8969 2 16.8969 1.5 16.8969C2.11932 17.556 2.73173 18.2771 3.3635 19.0209C6.5116 22.7275 10.1404 27 17.5 27C24.8216 27 28.1902 23.0489 31.4536 19.2211Z"
                                             : "M17 34C26.3888 34 34 26.3888 34 17C34 7.61116 26.3888 0 17 0C7.61116 0 0 7.61116 0 17C0 26.3888 7.61116 34 17 34ZM30.9536 19.2211C31.903 18.1226 32 18 33 16.8969C32 18 31.9089 18.1225 30.9536 19.2211C27.5 23 24 27 17 27C9.5 27 6 22.5 2.8635 19.0209C2 18 1.31828 17.2414 1 16.8969C1.61932 17.556 2.23173 18.2771 2.8635 19.0209C6 22.5 9.5 27 17 27C24 27 27.5 23 30.9536 19.2211Z"
                                     } fill="black" />
 
