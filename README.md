@@ -1,1 +1,1 @@
-# [kimathi.ca](https://kimathi.ca).
+# [kimathi.ca](https://kimathi.ca)
