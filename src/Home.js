@@ -13,9 +13,13 @@ function Home() {
 
               <div className='card-master'>
 
-                  <img className='media' src={item.thumb} />
-                  <h2 style={{ position: 'absolute', top: '30%', zIndex: '1', pointerEvents: 'none'}}>{item.name}</h2>
-                  <p style={{ position: 'absolute', top: '45%', zIndex: '1', pointerEvents: 'none' }}>{item.year}</p>
+                {(item.thumb.endsWith('.mp4') || item.thumb.endsWith('.mov')) ?
+                  <video className='media' id="video" autoPlay loop muted playsInline>
+                    <source src={item.thumb} type="video/mp4" />
+                  </video> :
+                  <img className='media' src={item.thumb} />}
+                <h2 style={{ position: 'absolute', top: '30%', zIndex: '1', pointerEvents: 'none' }}>{item.name}</h2>
+                <p style={{ position: 'absolute', top: '45%', zIndex: '1', pointerEvents: 'none' }}>{item.year}</p>
 
               </div>
             </Link>
