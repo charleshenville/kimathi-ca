@@ -188,12 +188,12 @@
     },
     {
         "name": "Glass",
-        "thumb": "assets/Glass/Untitled.png",
+        "thumb": "assets/Glass/untitled.png",
         "dir": "assets/Glass",
         "hovervid": "",
         "url": "/glass",
         "subfiles": [
-            "Untitled.png"
+            "untitled.png"
         ],
         "year": "2023"
     },
@@ -267,8 +267,8 @@
         "year": "2023"
     },
     {
-        "name": "sunnyside",
-        "thumb": "assets/sunnyside/Untitled.png",
+        "name": "Sunnyside",
+        "thumb": "assets/sunnyside/untitled.png",
         "dir": "assets/sunnyside",
         "hovervid": "",
         "url": "/sunnyside",
