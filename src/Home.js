@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
 
   function cf(string) {
+    console.log(string)
     return string.substring(0, 1).toUpperCase() + string.substring(1);
   }
 

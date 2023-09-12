@@ -1,7 +1,7 @@
 [
     {
         "name": "Type Experiments",
-        "thumb": "assets/type/Untitled.png",
+        "thumb": "assets/type/THUMB.png",
         "dir": "assets/type",
         "hovervid": "",
         "url": "/type",
@@ -13,13 +13,13 @@
             "Type Experiement_.png",
             "Nostra.png",
             "type texperiemnt4.png",
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Film",
-        "thumb": "assets/Film/Untitled.jpeg",
+        "thumb": "assets/Film/THUMB.jpeg",
         "dir": "assets/Film",
         "hovervid": "",
         "url": "/film",
@@ -125,14 +125,14 @@
             "0018_18A000065670018.jpg",
             "R1-03978-0004.jpg",
             "Untitled-2-06.png",
-            "Untitled.jpeg",
+            "THUMB.jpeg",
             "IMG_7776.jpg"
         ],
         "year": "2023"
     },
     {
         "name": "Clothing",
-        "thumb": "assets/clothing/Untitled.png",
+        "thumb": "assets/clothing/THUMB.png",
         "dir": "assets/clothing",
         "hovervid": "",
         "url": "/clothing",
@@ -141,29 +141,29 @@
             "T shirts-21.png",
             "T shirts.png",
             "T shirts 2-08.png",
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Logos",
-        "thumb": "assets/logos/Untitled.png",
+        "thumb": "assets/logos/THUMB.png",
         "dir": "assets/logos",
         "hovervid": "",
         "url": "/logos",
         "subfiles": [
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Movies",
-        "thumb": "assets/movies/Untitled.mp4",
+        "thumb": "assets/movies/THUMB.mp4",
         "dir": "assets/movies",
         "hovervid": "",
         "url": "/movies",
         "subfiles": [
-            "Untitled.mp4",
+            "THUMB.mp4",
             "Push the Dash - Video 002.mp4",
             "Tranquilized final.mp4",
             "dash final.mp4"
@@ -172,7 +172,7 @@
     },
     {
         "name": "JEMS",
-        "thumb": "assets/JEMS/Untitled.png",
+        "thumb": "assets/JEMS/THUMB.png",
         "dir": "assets/JEMS",
         "hovervid": "",
         "url": "/jems",
@@ -182,24 +182,24 @@
             "Jems social posts [Recovered] copy.png",
             "Jems social posts [Recovered]-03.png",
             "jems highsprung giveaway poster.png",
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Glass",
-        "thumb": "assets/Glass/Untitled.png",
+        "thumb": "assets/Glass/THUMB.png",
         "dir": "assets/Glass",
         "hovervid": "",
         "url": "/glass",
         "subfiles": [
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Modelling",
-        "thumb": "assets/Modelling/Untitled.jpg",
+        "thumb": "assets/Modelling/THUMB.jpg",
         "dir": "assets/Modelling",
         "hovervid": "",
         "url": "/modelling",
@@ -213,19 +213,19 @@
             "000070670012.jpg",
             "SSENSE x NANUSHKA_001.jpg",
             "000070660014.jpg",
-            "Untitled.jpg",
+            "THUMB.jpg",
             "SSENSE x FEAR OF GOD_001.jpg"
         ],
         "year": "2023"
     },
     {
         "name": "Animations",
-        "thumb": "assets/Animations/Untitled.mov",
+        "thumb": "assets/Animations/THUMB.mov",
         "dir": "assets/Animations",
         "hovervid": "assets/Animations/Kimathi Logo Sound (DRAFT2 NO MUSIC).mov",
         "url": "/animations",
         "subfiles": [
-            "Untitled.mov",
+            "THUMB.mov",
             "paper intro_1.mp4",
             "metamorp.mp4"
             ],
@@ -233,47 +233,47 @@
     },
     {
         "name": "Blender",
-        "thumb": "assets/Blender/Untitled.jpeg",
+        "thumb": "assets/Blender/THUMB.jpeg",
         "dir": "assets/Blender",
         "hovervid": "",
         "url": "/blender",
         "subfiles": [
             "Screen Shot 2022-10-17 at 10.23.49 PM.jpeg",
-            "Untitled.jpeg",
+            "THUMB.jpeg",
             "Screen Shot 2022-10-17 at 9.46.35 PM.jpeg"
         ],
         "year": "2023"
     },
     {
         "name": "Code",
-        "thumb": "assets/Code/Untitled.mov",
+        "thumb": "assets/Code/THUMB.mov",
         "dir": "assets/Code",
         "hovervid": "",
         "url": "/code",
         "subfiles": [
-            "Untitled.mov"
+            "THUMB.mov"
         ],
         "year": "2023"
     },
     {
         "name": "Quiver",
-        "thumb": "assets/Quiver/Untitled.png",
+        "thumb": "assets/Quiver/THUMB.png",
         "dir": "assets/Quiver",
         "hovervid": "",
         "url": "/quiver",
         "subfiles": [
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     },
     {
         "name": "Sunnyside",
-        "thumb": "assets/sunnyside/Untitled.png",
+        "thumb": "assets/sunnyside/THUMB.png",
         "dir": "assets/sunnyside",
         "hovervid": "",
         "url": "/sunnyside",
         "subfiles": [
-            "Untitled.png"
+            "THUMB.png"
         ],
         "year": "2023"
     }
