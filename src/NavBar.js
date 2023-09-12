@@ -6,6 +6,7 @@ function NavBar() {
 
     const [isExpanded, setExpanded] = useState(false);
     const [eyeState, setEyeState] = useState(2);
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
 
@@ -45,7 +46,8 @@ function NavBar() {
         document.addEventListener('mousemove', handleMouseMove);
         document.addEventListener("click", handleClick);
         if (window.innerWidth <= 768 ) { 
-        
+            
+            setIsMobile(true);
             setInterval(handleClick, 5000);
     
         } 
@@ -83,7 +85,10 @@ function NavBar() {
                             <svg id='leye' width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
 
                                 <circle cx="17" cy="17" r="17" fill="#FAFBFF" />
-                                <circle cx="19" cy="18" r="9" fill="black" />
+
+                                {isMobile ? <circle cx="17" cy="17" r="9" fill="black" />
+                                :<circle cx="19" cy="18" r="9" fill="black" />}
+                                
 
                             </svg>
                             <svg id='morph' style={{ position: 'absolute', transition: 'd 0.1s ease-in-out' }} width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
