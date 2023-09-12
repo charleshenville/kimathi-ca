@@ -147,8 +147,8 @@
     },
     {
         "name": "Logos",
-        "thumb": "assets/logos/THUMB.png",
-        "dir": "assets/logos",
+        "thumb": "assets/Logos/THUMB.png",
+        "dir": "assets/Logos",
         "hovervid": "",
         "url": "/logos",
         "subfiles": [
@@ -268,8 +268,8 @@
     },
     {
         "name": "Sunnyside",
-        "thumb": "assets/sunnyside/THUMB.png",
-        "dir": "assets/sunnyside",
+        "thumb": "assets/Sunnyside/THUMB.png",
+        "dir": "assets/Sunnyside",
         "hovervid": "",
         "url": "/sunnyside",
         "subfiles": [
