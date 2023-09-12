@@ -131,22 +131,20 @@
         "year": "2023"
     },
     {
-        "name": "Clothing",
-        "thumb": "assets/clothing/THUMB.png",
-        "dir": "assets/clothing",
+        "name": "Movies",
+        "thumb": "assets/movies/THUMB.mp4",
+        "dir": "assets/movies",
         "hovervid": "",
-        "url": "/clothing",
+        "url": "/movies",
         "subfiles": [
-            "T shirts-18.png",
-            "T shirts-21.png",
-            "T shirts.png",
-            "T shirts 2-08.png",
-            "THUMB.png"
+            "THUMB.mp4",
+            "Push the Dash - Video 002.mp4",
+            "Tranquilized final.mp4",
+            "dash final.mp4"
         ],
         "year": "2023"
     },
     {
-        
         "name": "Logos",
         "thumb": "assets/Logos/THUMB.png",
         "dir": "assets/Logos",
@@ -158,16 +156,17 @@
         "year": "2023"
     },
     {
-        "name": "Movies",
-        "thumb": "assets/movies/THUMB.mp4",
-        "dir": "assets/movies",
+        "name": "Clothing",
+        "thumb": "assets/clothing/THUMB.png",
+        "dir": "assets/clothing",
         "hovervid": "",
-        "url": "/movies",
+        "url": "/clothing",
         "subfiles": [
-            "THUMB.mp4",
-            "Push the Dash - Video 002.mp4",
-            "Tranquilized final.mp4",
-            "dash final.mp4"
+            "T shirts-18.png",
+            "T shirts-21.png",
+            "T shirts.png",
+            "T shirts 2-08.png",
+            "THUMB.png"
         ],
         "year": "2023"
     },
@@ -229,19 +228,6 @@
             "THUMB.mov",
             "paper intro_1.mp4",
             "metamorp.mp4"
-            ],
-        "year": "2023"
-    },
-    {
-        "name": "Blender",
-        "thumb": "assets/Blender/THUMB.jpeg",
-        "dir": "assets/Blender",
-        "hovervid": "",
-        "url": "/blender",
-        "subfiles": [
-            "Screen Shot 2022-10-17 at 10.23.49 PM.jpeg",
-            "THUMB.jpeg",
-            "Screen Shot 2022-10-17 at 9.46.35 PM.jpeg"
         ],
         "year": "2023"
     },
