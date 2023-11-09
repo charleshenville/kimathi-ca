@@ -131,11 +131,11 @@
         "year": "2023"
     },
     {
-        "name": "Movies",
+        "name": "Videos",
         "thumb": "assets/movies/THUMB.mp4",
         "dir": "assets/movies",
         "hovervid": "",
-        "url": "/movies",
+        "url": "/Videos",
         "subfiles": [
             "THUMB.mp4",
             "Push the Dash - Video 002.mp4",
