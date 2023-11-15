@@ -13,8 +13,8 @@
             "Type Experiement_.png",
             "Nostra.png",
             "type texperiemnt4.png",
-            "THUMB.png"
-            "Party.png",
+            "THUMB.png",
+            "Party.png"
         ],
         "year": "2023"
     },
@@ -196,7 +196,7 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2023"
+        "year": "2019"
     },
     {
         "name": "Modelling",
@@ -241,7 +241,7 @@
         "subfiles": [
             "THUMB.mov"
         ],
-        "year": "2023"
+        "year": "2021"
     },
     {
         "name": "Quiver",
@@ -252,7 +252,7 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2023"
+        "year": "2020"
     },
     {
         "name": "Sunnyside",
@@ -263,6 +263,6 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2023"
+        "year": "2020"
     }
 ]
