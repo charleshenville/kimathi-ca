@@ -200,7 +200,7 @@
     },
     {
         "name": "Modelling",
-        "thumb": "assets/Modelling/THUMB.jpg",
+        "thumb": "assets/Modelling/THUMB 2.jpg",
         "dir": "assets/Modelling",
         "hovervid": "",
         "url": "/modelling",
@@ -215,7 +215,15 @@
             "SSENSE x NANUSHKA_001.jpg",
             "000070660014.jpg",
             "THUMB.jpg",
-            "SSENSE x FEAR OF GOD_001.jpg"
+            "SSENSE x FEAR OF GOD_001.jpg",
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg",
+            "7.jpg",
+            "THUMB 2.jpg",
         ],
         "year": "2023"
     },
