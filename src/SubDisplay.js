@@ -9,7 +9,7 @@ function SubDisplay({ info }) {
     <header className="flex-sub">
       {files.map((file, index) => (
         <div key={index} className="media-sub">
-          {(file.endsWith('.mp4') || file.endsWith('.mov')) ? (
+          {(file.endsWith('.mp4') || file.endsWith('.mov') || file.endsWith('.MOV')) ? (
             <video style={{width:'100%'}} controls>
               <source src={info.dir+'/'+file} type="video/mp4" />
               Your browser does not support the video tag.
