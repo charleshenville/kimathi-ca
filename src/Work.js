@@ -2,11 +2,9 @@ import './App.css';
 
 function Work() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+    <header className="App-header">
+
+    </header>
   );
 }
 

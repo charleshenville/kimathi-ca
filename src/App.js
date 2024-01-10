@@ -6,6 +6,7 @@ import Work from './Work';
 import Contact from './Contact';
 import SubDisplay from './SubDisplay';
 import { Routes, Route } from 'react-router-dom';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route exact path='/work' element={<Work />} />
         <Route exact path='/contact' element={<Contact />} />
-
+        <Route exact path='/projects' element={<Projects />} />
         {items.map(item =>
           <Route exact path={item.url} element={<SubDisplay info={item}/>}/>
         )}

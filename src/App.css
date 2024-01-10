@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: Helvetica;
+
 }
 
 .App-header {
@@ -12,7 +13,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 1vmin);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  position: relative;
+  top: 80px;
+}
+
+.project-header {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  font-family: Helvetica;
   color: black;
   position: relative;
   top: 80px;
@@ -25,6 +40,18 @@
 
 .App-link:hover {
   text-decoration: underline;
+  color: black;
+}
+
+.project-link {
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  color: black;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid;
   color: black;
 }
 
@@ -93,15 +120,35 @@
 
 }
 
+.embed-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .flex-sub {
 
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 35%;
   top: 80px;
   position: relative;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-sub {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 80px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .media-sub {
@@ -111,4 +158,50 @@
   position: relative;
   box-sizing: border-box;
 
+}
+
+.thickbar {
+  width: 90%;
+  background-color: black;
+  height: 2px;
+}
+
+.lightbar {
+  width: 100%;
+  background-color: black;
+  height: 1px;
+}
+
+.project-grid-head {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: grid;
+  width: 90%;
+  font-size: small;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-grid-body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  width: 100%;
+  font-size: xx-large;
+  font-weight: lighter;
+  align-items: center;
+  grid-template-columns: 4fr 1fr;
+}
+
+.lfmt {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+}
+
+.rfmt {
+  display: flex;
+  font-size: small;
+  width: 100%;
+  font-weight: normal;
+  justify-content: right;
 }

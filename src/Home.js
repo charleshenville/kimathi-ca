@@ -4,12 +4,23 @@ import { Link } from 'react-router-dom';
 
 function Home() {
 
+
   return (
     <div className="App">
       <header className="App-header">
         <div className="content-grid">
 
-          {items.map(item =>
+          <Link style={{ width: '100%', borderRadius: '10px' }} to={"/projects"}>
+
+            <div className='card-master'>
+
+              <div className='media' style={{ "backgroundColor": "gray" }} />
+              <h2 style={{ position: 'absolute', top: '30%', zIndex: '1', pointerEvents: 'none' }}>Projects</h2>
+              <p style={{ position: 'absolute', top: '45%', zIndex: '1', pointerEvents: 'none' }}>Various dates</p>
+
+            </div>
+          </Link>
+          {items.filter(item => !item.isproject).map(item =>
             <Link style={{ width: '100%', borderRadius: '10px' }} to={item.url}>
 
               <div className='card-master'>
@@ -24,6 +35,7 @@ function Home() {
 
               </div>
             </Link>
+
           )}
 
         </div>

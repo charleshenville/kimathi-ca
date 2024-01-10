@@ -16,7 +16,8 @@
             "THUMB.png",
             "Party.png"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Film",
@@ -149,7 +150,8 @@
             "toronto 4.png",
             "toronto 5.png"    
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Videos",
@@ -166,7 +168,8 @@
             "Sneaky Dees.MOV",
             "Berlin compress.mp4"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Logos",
@@ -177,7 +180,8 @@
         "subfiles": [
             "Logos.png"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Clothing",
@@ -192,7 +196,8 @@
             "T shirts 2-08.png",
             "THUMB.png"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "JEMS",
@@ -208,7 +213,8 @@
             "jems highsprung giveaway poster.png",
             "THUMB.png"
         ],
-        "year": "2023"
+        "year": "ONGOING",
+        "isproject": true
     },
     {
         "name": "Modelling",
@@ -237,7 +243,8 @@
             "7.jpg",
             "THUMB 2.jpg"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Animations",
@@ -252,7 +259,8 @@
             "Birthday.mov",
             "Eye 3D black.mov"
         ],
-        "year": "2023"
+        "year": "2023",
+        "isproject": false
     },
     {
         "name": "Glass",
@@ -263,7 +271,8 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2022"
+        "year": "2022",
+        "isproject": true
     },
     {
         "name": "Code",
@@ -274,7 +283,8 @@
         "subfiles": [
             "THUMB.mov"
         ],
-        "year": "2021"
+        "year": "2021",
+        "isproject": false
     },
     {
         "name": "Quiver",
@@ -285,7 +295,8 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2020"
+        "year": "2020",
+        "isproject": true
     },
     {
         "name": "Sunnyside",
@@ -296,6 +307,7 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2020"
+        "year": "2020",
+        "isproject": true
     }
 ]
