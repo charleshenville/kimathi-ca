@@ -15,7 +15,8 @@
             "type texperiemnt4.png",
             "THUMB.png",
             "Party.png",
-            "hounds final.png"
+            "hounds final.png",
+            "colur-2.png"
         ],
         "year": "2023",
         "isproject": false
@@ -192,7 +193,6 @@
         "subfiles": [
             "T shirts-18.png",
             "T shirts-21.png",
-            "T shirts.png",
             "T shirts 2-08.png",
             "THUMB.png"
         ],
@@ -210,7 +210,6 @@
             "Jems social posts [Recovered]-15.png",
             "Jems social posts [Recovered] copy.png",
             "Jems social posts [Recovered]-03.png",
-            "jems highsprung giveaway poster.png",
             "THUMB.png"
         ],
         "year": "ONGOING",
@@ -240,7 +239,6 @@
             "4.jpg",
             "5.jpg",
             "6.jpg",
-            "7.jpg",
             "THUMB 2.jpg"
         ],
         "year": "2023",
@@ -293,6 +291,7 @@
         "hovervid": "",
         "url": "/quiver",
         "subfiles": [
+           "Quiver Promotional Video.mov",
             "THUMBB.png"
         ],
         "year": "2020",
