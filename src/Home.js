@@ -14,7 +14,7 @@ function Home() {
 
             <div className='card-master'>
 
-              <div className='media' style={{ "backgroundColor": "gray" }} />
+              <img className='media' src="assets/projects_thumb.png" />
               <h2 style={{ position: 'absolute', top: '30%', zIndex: '1', pointerEvents: 'none' }}>Projects</h2>
               <p style={{ position: 'absolute', top: '45%', zIndex: '1', pointerEvents: 'none' }}>Various dates</p>
 

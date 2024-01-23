@@ -13,7 +13,12 @@ function Projects() {
 
         <div style={{ "width": "90%" }}>
           <div className="project-grid-body">
-            <div className="lfmt"><a href={item.url} className='project-link'>{item.name.toUpperCase()}</a></div>
+            <div className="lfmt">
+              <a href={item.url} className='project-link'>{item.name.toUpperCase()}
+              <div className="underliner"/>
+              </a>
+              
+            </div>
             <div className="rfmt">{item.year}</div>
           </div>
           <div className='lightbar'></div>

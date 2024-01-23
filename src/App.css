@@ -45,14 +45,8 @@
 
 .project-link {
   text-decoration: none;
-  border-bottom: 1px solid white;
   color: black;
-}
-
-.project-link:hover {
-  text-decoration: none;
-  border-bottom: 1px solid;
-  color: black;
+  width: fit-content;
 }
 
 .content-grid {
@@ -149,6 +143,19 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.underliner {
+  position: relative;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s cubic-bezier(0.445, 0.1, 0.55, 0.95);
+  z-index: 2;
+}
+
+.project-link:hover .underliner {
+  width: 100%;
 }
 
 .media-sub {
