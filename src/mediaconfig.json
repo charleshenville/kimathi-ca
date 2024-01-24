@@ -6,16 +6,16 @@
         "hovervid": "",
         "url": "/type",
         "subfiles": [
+            "THUMB.png",
+            "Party.png",
+            "hounds final.png",
             "MASK 1.png",
-            "MASK 2.png",
             "crush text experiment-01.png",
             "type texperiemnt.png",
             "Type Experiement_.png",
             "Nostra.png",
+            "MASK 2.png",
             "type texperiemnt4.png",
-            "THUMB.png",
-            "Party.png",
-            "hounds final.png",
             "colur-2.png"
         ],
         "year": "2023",
@@ -28,6 +28,7 @@
         "hovervid": "",
         "url": "/film",
         "subfiles": [
+            "THUMB.jpeg",
             "R1-06731-0015.png",
             "R1-07672-0000.png",
             "R1-04582-021A.jpg",
@@ -129,7 +130,6 @@
             "0018_18A000065670018.jpg",
             "R1-03978-0004.jpg",
             "Untitled-2-06.png",
-            "THUMB.jpeg",
             "IMG_7776.jpg",
             "000035290001.png",
             "000035290002.png",
@@ -155,25 +155,24 @@
         "isproject": false
     },
     {
-        "name": "Videos",
+        "name": "Video",
         "thumb": "assets/movies/THUMB.mp4",
         "dir": "assets/movies",
         "hovervid": "",
-        "url": "/Videos",
+        "url": "/Video",
         "subfiles": [
             "THUMB.mp4",
-            "Push the Dash - Video 002.mp4",
             "Tranquilized final.mp4",
             "dash final.mp4",
+            "Push the Dash - Video 002.mp4",
             "Bovine.MOV",
-            "Sneaky Dees.MOV",
-            "Berlin compress.mp4"
+            "Sneaky Dees.MOV"
         ],
         "year": "2023",
         "isproject": false
     },
     {
-        "name": "Logos",
+        "name": "Logo",
         "thumb": "assets/Logos/THUMB 2.png",
         "dir": "assets/Logos",
         "hovervid": "",
@@ -191,10 +190,11 @@
         "hovervid": "",
         "url": "/clothing",
         "subfiles": [
+            "THUMB.png",
             "T shirts-18.png",
             "T shirts-21.png",
-            "T shirts 2-08.png",
-            "THUMB.png"
+            "T shirts 2-08.png"
+            
         ],
         "year": "2023",
         "isproject": false
@@ -206,13 +206,14 @@
         "hovervid": "",
         "url": "/jems",
         "subfiles": [
+            "THUMB.png",
+            "Jems social posts [Recovered]-03.png",
             "Jems social podsts [Recovered].png",
             "Jems social posts [Recovered]-15.png",
-            "Jems social posts [Recovered] copy.png",
-            "Jems social posts [Recovered]-03.png",
-            "THUMB.png"
+            "Jems social posts [Recovered] copy.png"
+            
         ],
-        "year": "ONGOING",
+        "year": "2022",
         "isproject": true
     },
     {
@@ -222,40 +223,41 @@
         "hovervid": "",
         "url": "/modelling",
         "subfiles": [
-            "SSENSE x ALEXANDER WANG_001.jpg",
-            "SSENSE x KIKO KOSTADINOV_001.jpg",
-            "SSENSE x KIKO KOSTADINOV_002.jpg",
-            "000070660031.jpg",
-            "000070660011.jpg",
-            "000070670015.jpg",
-            "000070670012.jpg",
-            "SSENSE x NANUSHKA_001.jpg",
-            "000070660014.jpg",
-            "THUMB.jpg",
-            "SSENSE x FEAR OF GOD_001.jpg",
+            "THUMB 2.jpg",
             "1.jpg",
             "2.jpg",
             "3.jpg",
             "4.jpg",
-            "5.jpg",
             "6.jpg",
-            "THUMB 2.jpg"
+            "SSENSE x KIKO KOSTADINOV_001.jpg",
+            "SSENSE x KIKO KOSTADINOV_002.jpg",
+            "SSENSE x NANUSHKA_001.jpg",
+            "SSENSE x ALEXANDER WANG_001.jpg",
+            "SSENSE x FEAR OF GOD_001.jpg",
+            "000070660031.jpg",
+            "000070660011.jpg",
+            "000070670015.jpg",
+            "000070670012.jpg",
+            "000070660014.jpg",
+            "THUMB.jpg"
         ],
         "year": "2023",
         "isproject": false
     },
     {
-        "name": "Animations",
+        "name": "Animation",
         "thumb": "assets/Animations/THUMB.mov",
         "dir": "assets/Animations",
         "hovervid": "assets/Animations/Kimathi Logo Sound (DRAFT2 NO MUSIC).mov",
         "url": "/animations",
         "subfiles": [
             "THUMB.mov",
+            "wave.mp4",
             "paper intro_1.mp4",
             "metamorp.mp4",
             "Birthday.mov",
             "Eye 3D black.mov"
+            
         ],
         "year": "2023",
         "isproject": false
@@ -269,7 +271,7 @@
         "subfiles": [
             "THUMBB.png"
         ],
-        "year": "2022",
+        "year": "2019",
         "isproject": true
     },
     {
@@ -291,8 +293,9 @@
         "hovervid": "",
         "url": "/quiver",
         "subfiles": [
-           "Quiver Promotional Video.mov",
-            "THUMBB.png"
+           
+            "THUMBB.png",
+            "Quiver Promotional Video.mov"
         ],
         "year": "2020",
         "isproject": true
