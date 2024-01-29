@@ -185,15 +185,20 @@
     },
     {
         "name": "Clothing",
-        "thumb": "assets/clothing/THUMB.png",
+        "thumb": "assets/clothing/s11.png",
         "dir": "assets/clothing",
         "hovervid": "",
         "url": "/clothing",
         "subfiles": [
-            "THUMB.png",
-            "T shirts-18.png",
-            "T shirts-21.png",
-            "T shirts 2-08.png"
+            "s11.png",
+            "s1.png",
+            "s2.png",
+            "s3.png",
+            "s4.png",
+            "s5.png",
+            "s8.png",
+            "s7.png",
+            "s9.png"
             
         ],
         "year": "2023",
