@@ -185,20 +185,22 @@
     },
     {
         "name": "Clothing",
-        "thumb": "assets/clothing/s11.png",
+        "thumb": "assets/clothing/s10.png",
         "dir": "assets/clothing",
         "hovervid": "",
         "url": "/clothing",
         "subfiles": [
-            "s11.png",
-            "s1.png",
+            "s10.png",
             "s2.png",
             "s3.png",
             "s4.png",
             "s5.png",
-            "s8.png",
+            "s6.png",
             "s7.png",
-            "s9.png"
+            "s8.png",
+            "s9.png",
+            "s1.png"
+            
         ],
         "year": "2023",
         "isproject": false
