@@ -156,8 +156,8 @@
     },
     {
         "name": "Video",
-        "thumb": "assets/movies/THUMB.mp4",
-        "dir": "assets/movies",
+        "thumb": "assets/Movies/THUMB.mp4",
+        "dir": "assets/Movies",
         "hovervid": "",
         "url": "/Video",
         "subfiles": [
@@ -185,8 +185,8 @@
     },
     {
         "name": "Clothing",
-        "thumb": "assets/clothing/s10.png",
-        "dir": "assets/clothing",
+        "thumb": "assets/Clothing/s10.png",
+        "dir": "assets/Clothing",
         "hovervid": "",
         "url": "/clothing",
         "subfiles": [
