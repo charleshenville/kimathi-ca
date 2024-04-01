@@ -18,16 +18,45 @@
             "type texperiemnt4.png",
             "colur-2.png"
         ],
-        "year": "2023",
+        "year": "2024",
         "isproject": false
     },
     {
         "name": "Film",
-        "thumb": "assets/Film/IMG_7785.jpg",
+        "thumb": "assets/Film/mx13-min.png",
         "dir": "assets/Film",
         "hovervid": "",
         "url": "/film",
         "subfiles": [
+            "mx13-min.png",
+            "mx1-min.png",
+            "mx2-min.png",
+            "mx3-min.png",
+            "mx4-min.png",
+            "mx5-min.png",
+            "mx6-min.png",
+            "mx7-min.png",
+            "mx8-min.png",
+            "mx9-min.png",
+            "mx10-min.png",
+            "mx12-min.png",
+            "mx14-min.png",
+            "027-1-min.png",
+            "027-2-min.png",
+            "ch4-min.png",
+            "ch6-min.png",
+            "ch10-min.png",
+            "ch11-min.png",
+            "ch13-min.png",
+            "ch14-min.png",
+            "ch16-min.png",
+            "b1-min.png",
+            "bl2-min.png",
+            "bl3-min.png",
+            "bl4-min.png",
+            "bl5-min.png",
+            "bl6-min.png",
+            "Untitled-2-06.png",
             "R1-07672-0000.png",
             "R1-04582-021A.jpg",
             "R1-03514-0006.png",
@@ -114,7 +143,6 @@
             "R1-03954-023A.png",
             "0018_18A000065670018.jpg",
             "R1-03978-0004.jpg",
-            "Untitled-2-06.png",
             "IMG_7776.jpg",
             "000035290001.png",
             "000035290002.png",
@@ -136,7 +164,7 @@
             "toronto 4.png",
             "toronto 5.png"    
         ],
-        "year": "2023",
+        "year": "2024",
         "isproject": false
     },
     {
@@ -258,6 +286,7 @@
         "url": "/animations",
         "subfiles": [
             "THUMB.mov",
+            "Kinetic type.mp4",
             "wave.mp4",
             "paper intro_1.mp4",
             "metamorp.mp4",
@@ -316,6 +345,18 @@
             "THUMBB.png"
         ],
         "year": "2020",
+        "isproject": true
+    },
+    {
+        "name": "Matchwise",
+        "thumb": "assets/Matchwise/THUMB.png",
+        "dir": "assets/Matchwise",
+        "hovervid": "",
+        "url": "/matchwise",
+        "subfiles": [
+            "Matchwise portfolio.png"
+        ],
+        "year": "2024",
         "isproject": true
     }
 ]
