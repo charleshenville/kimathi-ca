@@ -29,15 +29,14 @@
         "url": "/film",
         "subfiles": [
             "mx13-min.png",
-            "mx1-min.png",
+            "mx4-min.png",
+            "mx9-min.png",
             "mx2-min.png",
             "mx3-min.png",
-            "mx4-min.png",
             "mx5-min.png",
             "mx6-min.png",
             "mx7-min.png",
             "mx8-min.png",
-            "mx9-min.png",
             "mx10-min.png",
             "mx12-min.png",
             "mx14-min.png",
@@ -346,17 +345,6 @@
         ],
         "year": "2020",
         "isproject": true
-    },
-    {
-        "name": "Matchwise",
-        "thumb": "assets/Matchwise/THUMB.png",
-        "dir": "assets/Matchwise",
-        "hovervid": "",
-        "url": "/matchwise",
-        "subfiles": [
-            "Matchwise portfolio.png"
-        ],
-        "year": "2024",
-        "isproject": true
     }
+    
 ]
